@@ -80,3 +80,71 @@ msgstr "Домен правила"
 #: model:ir.model.fields,field_description:stock_reserve_rule.field_stock_reserve_rule_removal__sequence
 msgid "Sequence"
 msgstr "Послідовність"
+
+#. module: stock_reserve_rule
+#: model:ir.model.fields.selection,name:stock_reserve_rule.selection__stock_reserve_rule_removal__removal_strategy__empty_bin
+msgid "Empty Bins"
+msgstr "Порожні комірки"
+
+#. module: stock_reserve_rule
+#: model:ir.model.fields.selection,name:stock_reserve_rule.selection__stock_reserve_rule_removal__removal_strategy__packaging
+msgid "Full Packaging"
+msgstr "Повна упаковка"
+
+#. module: stock_reserve_rule
+#: model:ir.model.fields,field_description:stock_reserve_rule.field_stock_reserve_rule__write_uid
+#: model:ir.model.fields,field_description:stock_reserve_rule.field_stock_reserve_rule_removal__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: stock_reserve_rule
+#: model:ir.model.fields,field_description:stock_reserve_rule.field_stock_reserve_rule__write_date
+#: model:ir.model.fields,field_description:stock_reserve_rule.field_stock_reserve_rule_removal__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: stock_reserve_rule
+#: model:ir.model.fields,field_description:stock_reserve_rule.field_stock_reserve_rule__picking_type_ids
+msgid "Operation Types"
+msgstr "Типи операцій"
+
+#. module: stock_reserve_rule
+#: model:ir.model.fields,field_description:stock_reserve_rule.field_stock_reserve_rule_removal__packaging_level_ids
+msgid "Packaging Level"
+msgstr "Рівень пакування"
+
+#. module: stock_reserve_rule
+#: model:ir.model.fields,field_description:stock_reserve_rule.field_stock_reserve_rule_removal__quant_domain
+msgid "Quants Domain"
+msgstr "Домен квантів"
+
+#. module: stock_reserve_rule
+#: model_terms:ir.ui.view,arch_db:stock_reserve_rule.view_stock_reserve_rule_form
+msgid "Removal Rule"
+msgstr "Правило вилучення"
+
+#. module: stock_reserve_rule
+#: model_terms:ir.ui.view,arch_db:stock_reserve_rule.view_stock_reserve_rule_form
+msgid "Removal Rules"
+msgstr "Правила вилучення"
+
+#. module: stock_reserve_rule
+#: model_terms:ir.ui.view,arch_db:stock_reserve_rule.view_stock_reserve_rule_form
+#: model_terms:ir.ui.view,arch_db:stock_reserve_rule.view_stock_reserve_rule_search
+msgid "Reservation Rule"
+msgstr "Правило резервування"
+
+#. module: stock_reserve_rule
+#: model:ir.model.fields,field_description:stock_reserve_rule.field_stock_picking_type__reserve_rule_ids
+msgid "Reserve Rule"
+msgstr "Правило резервування"
+
+#. module: stock_reserve_rule
+#: model:ir.model.fields,field_description:stock_reserve_rule.field_stock_reserve_rule__rule_removal_ids
+msgid "Rule Removal"
+msgstr "Видалення правила"
+
+#. module: stock_reserve_rule
+#: model:ir.model,name:stock_reserve_rule.model_stock_reserve_rule
+msgid "Stock Reservation Rule"
+msgstr "Правило резервування запасів"

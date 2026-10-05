@@ -136,12 +136,12 @@ msgstr ""
 #. module: stock_reserve
 #: model:ir.model.fields,field_description:stock_reserve.field_stock_reservation__date
 msgid "Date Scheduled"
-msgstr ""
+msgstr "Запланована дата"
 
 #. module: stock_reserve
 #: model:ir.model.fields,field_description:stock_reserve.field_stock_reservation__reservation_date
 msgid "Date to Reserve"
-msgstr ""
+msgstr "Дата резервування"
 
 #. module: stock_reserve
 #: model:ir.model.fields,field_description:stock_reserve.field_stock_reservation__date_deadline
@@ -151,7 +151,7 @@ msgstr "Кінцевий термін"
 #. module: stock_reserve
 #: model:ir.model.fields,field_description:stock_reserve.field_stock_reservation__delay_alert_date
 msgid "Delay Alert Date"
-msgstr ""
+msgstr "Дата сповіщення про затримку"
 
 #. module: stock_reserve
 #: model:ir.model.fields,field_description:stock_reserve.field_stock_reservation__product_uom_qty
@@ -201,7 +201,7 @@ msgstr "Деталі"
 #. module: stock_reserve
 #: model:ir.model.fields,field_description:stock_reserve.field_stock_reservation__show_details_visible
 msgid "Details Visible"
-msgstr ""
+msgstr "Деталі видимі"
 
 #. module: stock_reserve
 #: model:ir.model.fields,field_description:stock_reserve.field_stock_reservation__display_assign_serial
@@ -221,12 +221,12 @@ msgstr "Назва для відображення"
 #. module: stock_reserve
 #: model:ir.model.fields,field_description:stock_reserve.field_stock_reservation__product_packaging_quantity
 msgid "Done Packaging Quantity"
-msgstr ""
+msgstr "Кількість завершеного пакування"
 
 #. module: stock_reserve
 #: model_terms:ir.ui.view,arch_db:stock_reserve.view_stock_reservation_search
 msgid "Draft"
-msgstr ""
+msgstr "Чернетка"
 
 #. module: stock_reserve
 #: model:ir.model.fields,help:stock_reserve.field_stock_reservation__has_tracking
@@ -251,12 +251,12 @@ msgstr ""
 #. module: stock_reserve
 #: model:ir.model.fields,field_description:stock_reserve.field_stock_reservation__availability
 msgid "Forecasted Quantity"
-msgstr ""
+msgstr "Прогнозована кількість"
 
 #. module: stock_reserve
 #: model_terms:ir.ui.view,arch_db:stock_reserve.view_stock_reservation_search
 msgid "Group By..."
-msgstr ""
+msgstr "Групувати за..."
 
 #. module: stock_reserve
 #: model:ir.model.fields,field_description:stock_reserve.field_stock_reservation__id
@@ -334,7 +334,7 @@ msgstr "Рядок переміщення"
 #. module: stock_reserve
 #: model:ir.model.fields,field_description:stock_reserve.field_stock_reservation__move_lines_count
 msgid "Move Lines Count"
-msgstr ""
+msgstr "Кількість рядків переміщення"
 
 #. module: stock_reserve
 #: model:ir.model.fields,help:stock_reserve.field_stock_reservation__origin_returned_move_id
@@ -369,7 +369,7 @@ msgstr ""
 #. module: stock_reserve
 #: model:ir.model.fields,field_description:stock_reserve.field_stock_reservation__picking_type_id
 msgid "Operation Type"
-msgstr ""
+msgstr "Тип операції"
 
 #. module: stock_reserve
 #: model:ir.model.fields,help:stock_reserve.field_stock_reservation__partner_id
@@ -401,7 +401,7 @@ msgstr ""
 #. module: stock_reserve
 #: model:ir.model.fields,field_description:stock_reserve.field_stock_reservation__move_orig_ids
 msgid "Original Move"
-msgstr ""
+msgstr "Початкове переміщення"
 
 #. module: stock_reserve
 #: model:ir.model.fields,field_description:stock_reserve.field_stock_reservation__orderpoint_id
@@ -416,7 +416,7 @@ msgstr "Власник"
 #. module: stock_reserve
 #: model:ir.model.fields,field_description:stock_reserve.field_stock_reservation__package_level_id
 msgid "Package Level"
-msgstr ""
+msgstr "Рівень пакунка"
 
 #. module: stock_reserve
 #: model:ir.model.fields,field_description:stock_reserve.field_stock_reservation__product_packaging_id
@@ -446,7 +446,7 @@ msgstr ""
 #. module: stock_reserve
 #: model:ir.model.fields,field_description:stock_reserve.field_stock_reservation__group_id
 msgid "Procurement Group"
-msgstr ""
+msgstr "Група забезпечення"
 
 #. module: stock_reserve
 #: model:ir.model,name:stock_reserve.model_product_template
@@ -458,7 +458,7 @@ msgstr ""
 #. module: stock_reserve
 #: model:ir.model.fields,field_description:stock_reserve.field_stock_reservation__product_tmpl_id
 msgid "Product Template"
-msgstr ""
+msgstr "Шаблон товару"
 
 #. module: stock_reserve
 #: model:ir.model.fields,field_description:stock_reserve.field_stock_reservation__product_type
@@ -503,7 +503,7 @@ msgstr ""
 #. module: stock_reserve
 #: model:ir.model.fields,field_description:stock_reserve.field_stock_reservation__product_qty
 msgid "Real Quantity"
-msgstr ""
+msgstr "Фактична кількість"
 
 #. module: stock_reserve
 #: model:ir.model.fields,field_description:stock_reserve.field_stock_reservation__reason_code_id
@@ -519,7 +519,7 @@ msgstr "Посилання"
 #: model_terms:ir.ui.view,arch_db:stock_reserve.view_stock_reservation_form
 #: model_terms:ir.ui.view,arch_db:stock_reserve.view_stock_reservation_tree
 msgid "Release"
-msgstr ""
+msgstr "Вивільнити"
 
 #. module: stock_reserve
 #: model:ir.actions.server,name:stock_reserve.ir_cron_release_stock_reservation_ir_actions_server
@@ -530,7 +530,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:stock_reserve.view_stock_reservation_form
 #: model_terms:ir.ui.view,arch_db:stock_reserve.view_stock_reservation_search
 msgid "Released"
-msgstr ""
+msgstr "Вивільнено"
 
 #. module: stock_reserve
 #. odoo-python
@@ -538,7 +538,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:stock_reserve.field_stock_reservation__move_id
 #, python-format
 msgid "Reservation Move"
-msgstr ""
+msgstr "Переміщення резервування"
 
 #. module: stock_reserve
 #: model_terms:ir.ui.view,arch_db:stock_reserve.view_stock_reservation_search
@@ -549,17 +549,17 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:stock_reserve.view_stock_reservation_form
 #: model_terms:ir.ui.view,arch_db:stock_reserve.view_stock_reservation_tree
 msgid "Reserve"
-msgstr ""
+msgstr "Зарезервувати"
 
 #. module: stock_reserve
 #: model_terms:ir.ui.view,arch_db:stock_reserve.view_stock_reservation_search
 msgid "Reserved"
-msgstr ""
+msgstr "Зарезервовано"
 
 #. module: stock_reserve
 #: model:ir.model.fields,field_description:stock_reserve.field_stock_reservation__product_packaging_qty
 msgid "Reserved Packaging Quantity"
-msgstr ""
+msgstr "Зарезервована кількість пакування"
 
 #. module: stock_reserve
 #: model:ir.model.fields,help:stock_reserve.field_stock_reservation__date
@@ -569,7 +569,7 @@ msgstr ""
 #. module: stock_reserve
 #: model:ir.model.fields,field_description:stock_reserve.field_stock_reservation__scrap_id
 msgid "Scrap operation"
-msgstr ""
+msgstr "Операція списання"
 
 #. module: stock_reserve
 #: model:ir.model.fields,field_description:stock_reserve.field_stock_reservation__scrapped
@@ -584,7 +584,7 @@ msgstr "Послідовність"
 #. module: stock_reserve
 #: model:ir.model.fields,field_description:stock_reserve.field_stock_reservation__lot_ids
 msgid "Serial Numbers"
-msgstr ""
+msgstr "Серійні номери"
 
 #. module: stock_reserve
 #: model:ir.model.fields,help:stock_reserve.field_stock_reservation__location_id
@@ -616,18 +616,18 @@ msgstr "Показувати lot_id"
 #. module: stock_reserve
 #: model:ir.model.fields,field_description:stock_reserve.field_stock_reservation__show_lots_text
 msgid "Show lot_name"
-msgstr ""
+msgstr "Показувати lot_name"
 
 #. module: stock_reserve
 #: model:ir.model.fields,field_description:stock_reserve.field_stock_reservation__origin
 msgid "Source Document"
-msgstr ""
+msgstr "Вихідний документ"
 
 #. module: stock_reserve
 #: model:ir.model.fields,field_description:stock_reserve.field_stock_reservation__location_id
 #: model_terms:ir.ui.view,arch_db:stock_reserve.view_stock_reservation_search
 msgid "Source Location"
-msgstr ""
+msgstr "Початкове місце"
 
 #. module: stock_reserve
 #: model:ir.model.fields,field_description:stock_reserve.field_stock_reservation__location_usage
@@ -663,7 +663,7 @@ msgstr "Складське правило"
 #. module: stock_reserve
 #: model:ir.model.fields,field_description:stock_reserve.field_stock_reservation__stock_valuation_layer_ids
 msgid "Stock Valuation Layer"
-msgstr ""
+msgstr "Шар оцінки запасів"
 
 #. module: stock_reserve
 #: model:ir.actions.server,name:stock_reserve.ir_cron_reserve_waiting_confirmed_ir_actions_server
@@ -673,7 +673,7 @@ msgstr ""
 #. module: stock_reserve
 #: model:ir.model.fields,field_description:stock_reserve.field_stock_reservation__procure_method
 msgid "Supply Method"
-msgstr ""
+msgstr "Метод постачання"
 
 #. module: stock_reserve
 #: model:ir.model.fields,help:stock_reserve.field_stock_reservation__rule_id
@@ -742,7 +742,7 @@ msgstr ""
 #. module: stock_reserve
 #: model:ir.model.fields,field_description:stock_reserve.field_stock_reservation__date_validity
 msgid "Validity Date"
-msgstr ""
+msgstr "Дата чинності"
 
 #. module: stock_reserve
 #: model_terms:ir.ui.view,arch_db:stock_reserve.view_stock_reservation_form
@@ -757,7 +757,7 @@ msgstr "Об’єм"
 #. module: stock_reserve
 #: model:ir.model.fields,field_description:stock_reserve.field_stock_reservation__volume_uom_name
 msgid "Volume unit of measure label"
-msgstr ""
+msgstr "Мітка одиниці вимірювання об'єму"
 
 #. module: stock_reserve
 #: model:ir.model.fields,field_description:stock_reserve.field_stock_reservation__warehouse_id
@@ -785,6 +785,26 @@ msgstr "Рядок продажу"
 #: model:ir.model.fields,field_description:stock_reserve.field_stock_reservation__weight
 msgid "Weight"
 msgstr "Вага"
+
+#. module: stock_reserve
+#: model:ir.model.fields,field_description:stock_reserve.field_stock_reservation__location_final_id
+msgid "Final Location"
+msgstr "Кінцеве місце"
+
+#. module: stock_reserve
+#: model:ir.model.fields,field_description:stock_reserve.field_stock_reservation__next_serial
+msgid "First SN/Lot"
+msgstr "Перший SN/партія"
+
+#. module: stock_reserve
+#: model:ir.model.fields,field_description:stock_reserve.field_stock_reservation__purchase_line_id
+msgid "Purchase Order Line"
+msgstr "Рядок замовлення на закупівлю"
+
+#. module: stock_reserve
+#: model:ir.model.fields,field_description:stock_reserve.field_stock_reservation__is_storable
+msgid "Track Inventory"
+msgstr "Відстежувати запаси"
 
 #~ msgid "Last Modified on"
 #~ msgstr "Остання модифікація"

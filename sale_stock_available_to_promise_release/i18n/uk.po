@@ -29,3 +29,98 @@ msgstr "Відкладена кількість"
 #: model_terms:ir.ui.view,arch_db:sale_stock_available_to_promise_release.view_move_release_tree
 msgid "Weight"
 msgstr "Вага"
+
+#. module: sale_stock_available_to_promise_release
+#: model_terms:ir.ui.view,arch_db:sale_stock_available_to_promise_release.report_saleorder_document
+msgid "As of"
+msgstr "Станом на"
+
+#. module: sale_stock_available_to_promise_release
+#: model_terms:ir.ui.view,arch_db:sale_stock_available_to_promise_release.report_saleorder_document
+msgid "Available"
+msgstr "Доступно"
+
+#. module: sale_stock_available_to_promise_release
+#: model:ir.model.fields,field_description:sale_stock_available_to_promise_release.field_sale_order_line__available_qty
+msgid "Available Qty"
+msgstr "Доступна кількість"
+
+#. module: sale_stock_available_to_promise_release
+#: model_terms:ir.ui.view,arch_db:sale_stock_available_to_promise_release.view_move_release_search
+msgid "Delivery Date"
+msgstr "Дата доставки"
+
+#. module: sale_stock_available_to_promise_release
+#: model_terms:ir.ui.view,arch_db:sale_stock_available_to_promise_release.view_move_release_tree
+msgid "Delivery Method"
+msgstr "Спосіб доставки"
+
+#. module: sale_stock_available_to_promise_release
+#: model:ir.model.fields.selection,name:sale_stock_available_to_promise_release.selection__sale_order_line__availability_status__full
+msgid "Fully Available"
+msgstr "Повністю доступно"
+
+#. module: sale_stock_available_to_promise_release
+#: model_terms:ir.ui.view,arch_db:sale_stock_available_to_promise_release.view_move_release_search
+msgid "Further Shipment"
+msgstr "Подальше відвантаження"
+
+#. module: sale_stock_available_to_promise_release
+#: model_terms:ir.ui.view,arch_db:sale_stock_available_to_promise_release.view_move_release_search
+msgid "Late Shipment"
+msgstr "Запізніле відвантаження"
+
+#. module: sale_stock_available_to_promise_release
+#: model:ir.model.fields,field_description:sale_stock_available_to_promise_release.field_sale_order__move_need_release_count
+#: model_terms:ir.ui.view,arch_db:sale_stock_available_to_promise_release.view_order_form
+msgid "Moves Need Release"
+msgstr "Переміщення потребують вивільнення"
+
+#. module: sale_stock_available_to_promise_release
+#: model_terms:ir.ui.view,arch_db:sale_stock_available_to_promise_release.report_saleorder_document
+msgid "No"
+msgstr "Ні"
+
+#. module: sale_stock_available_to_promise_release
+#: model:ir.model.fields.selection,name:sale_stock_available_to_promise_release.selection__sale_order_line__availability_status__no
+msgid "Not available"
+msgstr "Недоступно"
+
+#. module: sale_stock_available_to_promise_release
+#: model:ir.model.fields.selection,name:sale_stock_available_to_promise_release.selection__sale_order_line__availability_status__on_order
+#: model_terms:ir.ui.view,arch_db:sale_stock_available_to_promise_release.report_saleorder_document
+msgid "On order"
+msgstr "У замовленні"
+
+#. module: sale_stock_available_to_promise_release
+#: model:ir.model.fields.selection,name:sale_stock_available_to_promise_release.selection__sale_order_line__availability_status__partial
+msgid "Partially Available"
+msgstr "Частково доступно"
+
+#. module: sale_stock_available_to_promise_release
+#: model:ir.model.fields.selection,name:sale_stock_available_to_promise_release.selection__sale_order_line__availability_status__restock
+msgid "Restock ordered"
+msgstr "Поповнення замовлено"
+
+#. module: sale_stock_available_to_promise_release
+#: model:ir.model.fields,help:sale_stock_available_to_promise_release.field_res_company__stock_sale_report_display_is_available
+#: model:ir.model.fields,help:sale_stock_available_to_promise_release.field_res_config_settings__stock_sale_report_display_is_available
+#: model_terms:ir.ui.view,arch_db:sale_stock_available_to_promise_release.res_config_settings_view
+msgid "Show Available column in SO and quotation reports"
+msgstr "Показувати колонку «Доступно» у звітах SO та комерційних пропозицій"
+
+#. module: sale_stock_available_to_promise_release
+#: model:ir.model.fields,field_description:sale_stock_available_to_promise_release.field_res_company__stock_sale_report_display_is_available
+#: model:ir.model.fields,field_description:sale_stock_available_to_promise_release.field_res_config_settings__stock_sale_report_display_is_available
+msgid "Stock Sale Report Display Is Available"
+msgstr "Доступне відображення звіту складських продажів"
+
+#. module: sale_stock_available_to_promise_release
+#: model_terms:ir.ui.view,arch_db:sale_stock_available_to_promise_release.view_move_release_search
+msgid "Today Shipment"
+msgstr "Сьогоднішнє відвантаження"
+
+#. module: sale_stock_available_to_promise_release
+#: model_terms:ir.ui.view,arch_db:sale_stock_available_to_promise_release.report_saleorder_document
+msgid "Yes"
+msgstr "Так"

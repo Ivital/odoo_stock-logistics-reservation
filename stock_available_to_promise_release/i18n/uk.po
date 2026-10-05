@@ -64,3 +64,156 @@ msgstr "Кому"
 #: model:ir.ui.menu,name:stock_available_to_promise_release.stock_picking_release_menu
 msgid "Transfers Allocations"
 msgstr "Розподіли переміщень"
+
+#. module: stock_available_to_promise_release
+#: model:ir.model.fields,field_description:stock_available_to_promise_release.field_stock_picking__release_ready_count
+msgid "# of moves ready"
+msgstr "Кількість готових переміщень"
+
+#. module: stock_available_to_promise_release
+#: model:ir.model.fields.selection,name:stock_available_to_promise_release.selection__stock_picking__release_policy__direct
+msgid "As soon as possible"
+msgstr "Якомога швидше"
+
+#. module: stock_available_to_promise_release
+#: model_terms:ir.ui.view,arch_db:stock_available_to_promise_release.view_stock_release_form
+#: model_terms:ir.ui.view,arch_db:stock_available_to_promise_release.view_stock_unrelease_form
+msgid "Cancel"
+msgstr "Скасувати"
+
+#. module: stock_available_to_promise_release
+#: model:ir.model.fields,field_description:stock_available_to_promise_release.field_stock_release__write_uid
+#: model:ir.model.fields,field_description:stock_available_to_promise_release.field_stock_unrelease__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: stock_available_to_promise_release
+#: model:ir.model.fields,field_description:stock_available_to_promise_release.field_stock_release__write_date
+#: model:ir.model.fields,field_description:stock_available_to_promise_release.field_stock_unrelease__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: stock_available_to_promise_release
+#: model:ir.model.fields,field_description:stock_available_to_promise_release.field_product_product__move_need_release_count
+#: model_terms:ir.ui.view,arch_db:stock_available_to_promise_release.product_normal_form_view
+msgid "Moves Need Release"
+msgstr "Переміщення потребують вивільнення"
+
+#. module: stock_available_to_promise_release
+#: model:ir.model.fields,field_description:stock_available_to_promise_release.field_stock_route__no_backorder_at_release
+#: model:ir.model.fields,field_description:stock_available_to_promise_release.field_stock_rule__no_backorder_at_release
+msgid "No backorder at release"
+msgstr "Без дозамовлення під час вивільнення"
+
+#. module: stock_available_to_promise_release
+#: model:ir.model.fields,field_description:stock_available_to_promise_release.field_stock_move__ordered_available_to_promise_uom_qty
+#: model:ir.model.fields,field_description:stock_available_to_promise_release.field_stock_reservation__ordered_available_to_promise_uom_qty
+msgid "Ordered Available to Promise"
+msgstr "Замовлено доступно до обіцянки"
+
+#. module: stock_available_to_promise_release
+#: model:ir.model.fields,field_description:stock_available_to_promise_release.field_stock_move__ordered_available_to_promise_qty
+#: model:ir.model.fields,field_description:stock_available_to_promise_release.field_stock_reservation__ordered_available_to_promise_qty
+msgid "Ordered Available to Promise (Real Qty)"
+msgstr "Замовлено доступно до обіцянки (фактична кількість)"
+
+#. module: stock_available_to_promise_release
+#: model_terms:ir.ui.view,arch_db:stock_available_to_promise_release.view_picking_release_tree
+msgid "Picking list"
+msgstr "Список комплектування"
+
+#. module: stock_available_to_promise_release
+#: model:ir.model.fields,field_description:stock_available_to_promise_release.field_stock_move__date_priority
+#: model:ir.model.fields,field_description:stock_available_to_promise_release.field_stock_picking__date_priority
+#: model:ir.model.fields,field_description:stock_available_to_promise_release.field_stock_reservation__date_priority
+msgid "Priority Date"
+msgstr "Дата пріоритету"
+
+#. module: stock_available_to_promise_release
+#: model:ir.model.fields,field_description:stock_available_to_promise_release.field_stock_move__previous_promised_qty
+#: model:ir.model.fields,field_description:stock_available_to_promise_release.field_stock_reservation__previous_promised_qty
+msgid "Quantity Promised before this move"
+msgstr "Кількість, обіцяна до цього переміщення"
+
+#. module: stock_available_to_promise_release
+#: model_terms:ir.ui.view,arch_db:stock_available_to_promise_release.view_picking_release_form
+#: model_terms:ir.ui.view,arch_db:stock_available_to_promise_release.view_stock_release_form
+msgid "Release"
+msgstr "Вивільнити"
+
+#. module: stock_available_to_promise_release
+#: model:ir.model.fields,field_description:stock_available_to_promise_release.field_stock_picking__release_policy
+msgid "Release Policy"
+msgstr "Політика випуску"
+
+#. module: stock_available_to_promise_release
+#: model:ir.model.fields,field_description:stock_available_to_promise_release.field_stock_move__release_ready
+#: model:ir.model.fields,field_description:stock_available_to_promise_release.field_stock_picking__release_ready
+#: model:ir.model.fields,field_description:stock_available_to_promise_release.field_stock_reservation__release_ready
+#: model_terms:ir.ui.view,arch_db:stock_available_to_promise_release.view_move_release_search
+#: model_terms:ir.ui.view,arch_db:stock_available_to_promise_release.view_picking_release_search
+msgid "Release Ready"
+msgstr "Готово до вивільнення"
+
+#. module: stock_available_to_promise_release
+#: model:ir.model.fields,field_description:stock_available_to_promise_release.field_stock_route__available_to_promise_defer_pull
+#: model:ir.model.fields,field_description:stock_available_to_promise_release.field_stock_rule__available_to_promise_defer_pull
+msgid "Release based on Available to Promise"
+msgstr "Вивільнення на основі Available to Promise"
+
+#. module: stock_available_to_promise_release
+#: model:ir.model.fields,field_description:stock_available_to_promise_release.field_stock_route__allow_unrelease_return_done_move
+#: model:ir.model.fields,field_description:stock_available_to_promise_release.field_stock_rule__allow_unrelease_return_done_move
+msgid "Reverse done transfer on cancellation"
+msgstr "Скасувати виконане переміщення під час скасування"
+
+#. module: stock_available_to_promise_release
+#: model:ir.model,name:stock_available_to_promise_release.model_stock_release
+#: model_terms:ir.ui.view,arch_db:stock_available_to_promise_release.view_stock_release_form
+msgid "Stock Allocations Release"
+msgstr "Вивільнення розподілу запасів"
+
+#. module: stock_available_to_promise_release
+#: model:ir.model,name:stock_available_to_promise_release.model_stock_unrelease
+#: model_terms:ir.ui.view,arch_db:stock_available_to_promise_release.view_stock_unrelease_form
+msgid "Stock Allocations Unrelease"
+msgstr "Скасувати вивільнення розподілу запасів"
+
+#. module: stock_available_to_promise_release
+#: model:ir.model.fields,field_description:stock_available_to_promise_release.field_res_company__stock_reservation_horizon
+#: model:ir.model.fields,field_description:stock_available_to_promise_release.field_res_config_settings__stock_reservation_horizon
+msgid "Stock Reservation Horizon"
+msgstr "Горизонт резервування запасів"
+
+#. module: stock_available_to_promise_release
+#: model:ir.model.fields,field_description:stock_available_to_promise_release.field_res_company__stock_release_max_prep_time
+#: model:ir.model.fields,field_description:stock_available_to_promise_release.field_res_config_settings__stock_release_max_prep_time
+msgid "Transfer Releases Max Prep. Time"
+msgstr "Максимальний час підготовки вивільнень переміщень"
+
+#. module: stock_available_to_promise_release
+#: model_terms:ir.ui.view,arch_db:stock_available_to_promise_release.view_picking_release_form
+#: model_terms:ir.ui.view,arch_db:stock_available_to_promise_release.view_stock_unrelease_form
+msgid "Unrelease"
+msgstr "Скасувати вивільнення"
+
+#. module: stock_available_to_promise_release
+#: model:ir.model.fields,field_description:stock_available_to_promise_release.field_stock_move__unrelease_allowed
+#: model:ir.model.fields,field_description:stock_available_to_promise_release.field_stock_reservation__unrelease_allowed
+msgid "Unrelease Allowed"
+msgstr "Дозволено скасування вивільнення"
+
+#. module: stock_available_to_promise_release
+#: model:ir.model.fields.selection,name:stock_available_to_promise_release.selection__stock_picking__release_policy__one
+msgid "When all products are ready"
+msgstr "Коли всі товари готові"
+
+#. module: stock_available_to_promise_release
+#: model_terms:ir.ui.view,arch_db:stock_available_to_promise_release.res_config_settings_view_form_stock
+msgid "days"
+msgstr "дні"
+
+#. module: stock_available_to_promise_release
+#: model_terms:ir.ui.view,arch_db:stock_available_to_promise_release.res_config_settings_view_form_stock
+msgid "minutes"
+msgstr "хвилини"
