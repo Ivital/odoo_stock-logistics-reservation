@@ -135,7 +135,7 @@ msgstr "Квант"
 #: code:addons/stock_quant_manual_assign/wizard/assign_manual_quants.py:0
 #, python-format
 msgid "Quantity is higher than the needed one"
-msgstr ""
+msgstr "Кількість перевищує необхідну"
 
 #. module: stock_quant_manual_assign
 #: model:ir.model.fields,field_description:stock_quant_manual_assign.field_assign_manual_quants__quants_lines
@@ -166,6 +166,9 @@ msgid ""
 "with this product has been done meanwhile or you have manually increased the"
 " suggested value."
 msgstr ""
+"Кількість у вибраному рядку перевищує доступну. Можливо, тим часом уже була "
+"виконана операція з цим товаром або ви вручну збільшили запропоноване "
+"значення."
 
 #. module: stock_quant_manual_assign
 #: model:ir.model.fields,help:stock_quant_manual_assign.field_assign_manual_quants_lines__package_id

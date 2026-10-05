@@ -225,3 +225,13 @@ msgstr "Правило застосовується лише в цьому мі�
 #: model:ir.model,name:stock_reserve_rule.model_stock_reserve_rule_removal
 msgid "Stock Reservation Rule Removal"
 msgstr "Видалення правила резервування запасів"
+
+#. module: stock_reserve_rule
+#. odoo-python
+#: code:addons/stock_reserve_rule/models/stock_reserve_rule.py:0
+msgid ""
+"Removal rule '%(removal_name)s' location has to be a child of the rule "
+"location '%(child_rule)s'."
+msgstr ""
+"Місце правила вибуття «%(removal_name)s» має бути дочірнім для місця правила"
+" «%(child_rule)s»."

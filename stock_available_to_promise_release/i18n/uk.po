@@ -483,3 +483,49 @@ msgid ""
 msgstr ""
 "Під час розблокування переміщення не створювати дозамовлення для переміщень,"
 " створених для недоступної кількості."
+
+#. module: stock_available_to_promise_release
+#. odoo-python
+#: code:addons/stock_available_to_promise_release/models/stock_move.py:0
+msgid "- blocking transfer(s): %(picking_names)s"
+msgstr "- блокувальні переміщення: %(picking_names)s"
+
+#. module: stock_available_to_promise_release
+#. odoo-python
+#: code:addons/stock_available_to_promise_release/models/stock_picking.py:0
+msgid "The backorder %s has been created."
+msgstr "Створено дозамовлення %s."
+
+#. module: stock_available_to_promise_release
+#. odoo-python
+#: code:addons/stock_available_to_promise_release/models/stock_move.py:0
+msgid ""
+"The following moves have been un-released: \n"
+"%(move_names)s"
+msgstr ""
+"Такі переміщення знято з випуску:\n"
+"%(move_names)s"
+
+#. module: stock_available_to_promise_release
+#. odoo-python
+#: code:addons/stock_available_to_promise_release/models/stock_move.py:0
+msgid "The operation %(picking_names)s is done and cannot be returned"
+msgstr "Операцію %(picking_names)s виконано й її не можна повернути"
+
+#. module: stock_available_to_promise_release
+#. odoo-python
+#: code:addons/stock_available_to_promise_release/models/stock_picking.py:0
+msgid "The split order %s has been created."
+msgstr "Створено розділене замовлення %s."
+
+#. module: stock_available_to_promise_release
+#. odoo-python
+#: code:addons/stock_available_to_promise_release/models/stock_move.py:0
+msgid "Unsupported operator %s"
+msgstr "Непідтримуваний оператор %s"
+
+#. module: stock_available_to_promise_release
+#. odoo-python
+#: code:addons/stock_available_to_promise_release/models/stock_picking.py:0
+msgid "Unsupported operator: %s"
+msgstr "Непідтримуваний оператор: %s"
