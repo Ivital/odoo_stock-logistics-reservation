@@ -381,3 +381,105 @@ msgstr ""
 " час + цей час підготовки (у хвилинах). Запланована дата означає найпізніший"
 " момент, коли переміщення мають бути виконані, тому після цього часу вони "
 "вважаються простроченими."
+
+#. module: stock_available_to_promise_release
+#: model:ir.model.fields,help:stock_available_to_promise_release.field_stock_move__ordered_available_to_promise_qty
+#: model:ir.model.fields,help:stock_available_to_promise_release.field_stock_reservation__ordered_available_to_promise_qty
+msgid ""
+"Available to Promise quantity minus quantities promised  to moves with "
+"higher priority (in default UoM of the product)."
+msgstr ""
+"Кількість Available to Promise мінус кількості, обіцяні переміщенням із "
+"вищим пріоритетом (у типовій одиниці виміру товару)."
+
+#. module: stock_available_to_promise_release
+#: model:ir.model.fields,help:stock_available_to_promise_release.field_stock_move__ordered_available_to_promise_uom_qty
+#: model:ir.model.fields,help:stock_available_to_promise_release.field_stock_reservation__ordered_available_to_promise_uom_qty
+msgid ""
+"Available to Promise quantity minus quantities promised  to moves with "
+"higher priority (in initial demand's UoM)."
+msgstr ""
+"Кількість Available to Promise мінус кількості, обіцяні переміщенням із "
+"вищим пріоритетом (у початковій одиниці виміру попиту)."
+
+#. module: stock_available_to_promise_release
+#: model:ir.model.fields,help:stock_available_to_promise_release.field_stock_route__available_to_promise_defer_pull
+#: model:ir.model.fields,help:stock_available_to_promise_release.field_stock_rule__available_to_promise_defer_pull
+msgid ""
+"Do not create chained moved automatically for delivery. Transfers must be "
+"released manually when they have enough available to promise."
+msgstr ""
+"Не створювати автоматично ланцюгові переміщення для доставки. Переміщення "
+"потрібно розблоковувати вручну, коли є достатня кількість Available to "
+"Promise."
+
+#. module: stock_available_to_promise_release
+#: model:ir.model.fields,help:stock_available_to_promise_release.field_stock_picking_type__prevent_new_move_after_release
+msgid ""
+"If checked, once a delivery picking has been released, no more moves will be"
+" added to it. For example, if you add lines in the origin sales order, the "
+"new moves will be added to a new delivery."
+msgstr ""
+"Якщо позначено, після випуску переміщення доставки до нього більше не "
+"додаватимуться нові переміщення. Наприклад, якщо ви додасте рядки у вихідне "
+"замовлення на продаж, нові переміщення буде додано до нової доставки."
+
+#. module: stock_available_to_promise_release
+#: model:ir.model.fields,help:stock_available_to_promise_release.field_stock_route__allow_unrelease_return_done_move
+#: model:ir.model.fields,help:stock_available_to_promise_release.field_stock_rule__allow_unrelease_return_done_move
+msgid ""
+"If checked, unreleasing the delivery may create a new inverse internal "
+"operation on the last done pulled transfer. Otherwise, you won't be able to "
+"unrelease as soon as one of the pulled transfer is done"
+msgstr ""
+"Якщо позначено, скасування розблокування доставки може створити нову "
+"зворотну внутрішню операцію для останнього виконаного витягнутого "
+"переміщення. Інакше розблокування буде неможливим, щойно одне з витягнутих "
+"переміщень виконано."
+
+#. module: stock_available_to_promise_release
+#: model:ir.model.fields,help:stock_available_to_promise_release.field_stock_picking_type__unrelease_on_backorder
+msgid ""
+"If checked, when a backorder is created (i.e. at the validation of the "
+"delivery), the moves into the backorder are unreleased as long as they came "
+"from a route configured to manually release moves. This means that the moves"
+" that were not delivered are put back in need for release and the "
+"unprocessed internal pulled moves are canceled."
+msgstr ""
+"Якщо позначено, коли створюється зворотне замовлення (тобто під час "
+"підтвердження доставки), переміщення у зворотному замовленні знімаються з "
+"випуску, якщо вони походять із маршруту, налаштованого на ручний випуск "
+"переміщень. Це означає, що недоставлені переміщення знову переходять у стан "
+"очікування випуску, а необроблені внутрішні pull-переміщення скасовуються."
+
+#. module: stock_available_to_promise_release
+#: model:ir.model.fields,help:stock_available_to_promise_release.field_stock_picking__release_policy
+msgid "It specifies how to release a transfer partially or all at once"
+msgstr "Визначає, як виконувати частковий або повний випуск переміщення"
+
+#. module: stock_available_to_promise_release
+#: model:ir.model.fields,help:stock_available_to_promise_release.field_stock_move__previous_promised_qty
+#: model:ir.model.fields,help:stock_available_to_promise_release.field_stock_reservation__previous_promised_qty
+msgid ""
+"Quantities promised to moves with higher priority than this move (in default"
+" UoM of the product)."
+msgstr ""
+"Кількості, обіцяні переміщенням із вищим пріоритетом, ніж це переміщення (у "
+"типовій одиниці виміру товару)."
+
+#. module: stock_available_to_promise_release
+#: model:ir.model.constraint,message:stock_available_to_promise_release.constraint_res_company_check_stock_release_max_prep_time
+msgid "The 'Transfer Releases Max Prep. Time' must be greater than 0 minutes."
+msgstr ""
+"Значення «Макс. час підготовки випусків переміщення» має бути більшим за 0 "
+"хвилин."
+
+#. module: stock_available_to_promise_release
+#: model:ir.model.fields,help:stock_available_to_promise_release.field_stock_route__no_backorder_at_release
+#: model:ir.model.fields,help:stock_available_to_promise_release.field_stock_rule__no_backorder_at_release
+msgid ""
+"When releasing a transfer, do not create a backorder for the moves created "
+"for the unavailable quantities."
+msgstr ""
+"Під час розблокування переміщення не створювати дозамовлення для переміщень,"
+" створених для недоступної кількості."

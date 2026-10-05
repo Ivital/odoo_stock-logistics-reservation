@@ -33,6 +33,11 @@ msgid ""
 "* Available: The product of the stock move is reserved.\n"
 "* Done: The product has been transferred and the transfer has been confirmed."
 msgstr ""
+"* Нове: складське переміщення створено, але не підтверджено.\n"
+"* Очікує іншого переміщення: перед цим має бути виконано пов'язане складське переміщення.\n"
+"* Очікує наявності: складське переміщення підтверджено, але товар неможливо зарезервувати.\n"
+"* Доступно: товар складського переміщення зарезервовано.\n"
+"* Виконано: товар переміщено й переміщення підтверджено."
 
 #. module: stock_reserve
 #: model:ir.model.fields,help:stock_reserve.field_stock_reservation__location_dest_usage
@@ -46,6 +51,13 @@ msgid ""
 "* Production: Virtual counterpart location for production operations: this location consumes the components and produces finished products\n"
 "* Transit Location: Counterpart location that should be used in inter-company or inter-warehouses operations"
 msgstr ""
+"* Місце постачальника: віртуальне вихідне місце для товарів від постачальників\n"
+"* Представлення: віртуальне місце для ієрархії складу; безпосередньо товари не містить\n"
+"* Внутрішнє місце: фізичне місце у власному складі\n"
+"* Місце клієнта: віртуальне місце призначення товарів клієнтам\n"
+"* Інвентаризаційні втрати: віртуальне контрмісце для коригування запасів\n"
+"* Виробництво: віртуальне контрмісце виробничих операцій, що споживає компоненти й виробляє готові товари\n"
+"* Транзитне місце: контрмісце для міжкомпанійних або міжскладських операцій"
 
 #. module: stock_reserve
 #: model:ir.model.fields,help:stock_reserve.field_stock_reservation__product_type
@@ -79,6 +91,11 @@ msgid ""
 "current stock) to gather products. If we want to chain moves and have this "
 "one to wait for the previous, this second option should be chosen."
 msgstr ""
+"За замовчуванням система бере товар із запасу у вихідному місці й пасивно "
+"очікує доступності. Інший варіант дозволяє безпосередньо створити "
+"забезпечення у вихідному місці (ігноруючи поточний запас), щоб зібрати "
+"товари. Для ланцюга переміщень, де це переміщення має чекати попереднього, "
+"слід вибрати другий варіант."
 
 #. module: stock_reserve
 #: model:ir.model.fields,field_description:stock_reserve.field_stock_reservation__product_uom_category_id
@@ -90,6 +107,8 @@ msgstr "Категорія"
 msgid ""
 "Check this box to allow using this location to put scrapped/damaged goods."
 msgstr ""
+"Позначте, щоб дозволити використовувати це місце розташування для "
+"списаних/пошкоджених товарів."
 
 #. module: stock_reserve
 #: model_terms:ir.actions.act_window,help:stock_reserve.action_stock_reservation_tree
@@ -104,7 +123,7 @@ msgstr "Компанія"
 #. module: stock_reserve
 #: model:ir.model.fields,help:stock_reserve.field_stock_reservation__reservation_date
 msgid "Computes when a move should be reserved"
-msgstr ""
+msgstr "Розраховує, коли переміщення має бути зарезервовано"
 
 #. module: stock_reserve
 #: model_terms:ir.ui.view,arch_db:stock_reserve.view_stock_reservation_search
@@ -269,6 +288,8 @@ msgstr "ID"
 #: model:ir.model.fields,help:stock_reserve.field_stock_reservation__propagate_cancel
 msgid "If checked, when this move is cancelled, cancel the linked move too"
 msgstr ""
+"Якщо позначено, під час скасування цього переміщення також скасувати "
+"пов’язане"
 
 #. module: stock_reserve
 #: model:ir.model.fields,help:stock_reserve.field_stock_reservation__show_operations
@@ -277,11 +298,14 @@ msgid ""
 " operations. If not, the picking lines will represent an aggregate of "
 "detailed stock operations."
 msgstr ""
+"Якщо цей прапорець установлено, рядки передачі представлятимуть детальні "
+"складські операції. Якщо ні — вони представлятимуть агреговані детальні "
+"складські операції."
 
 #. module: stock_reserve
 #: model:ir.model.fields,help:stock_reserve.field_stock_reservation__picking_type_entire_packs
 msgid "If ticked, you will be able to select entire packages to move"
-msgstr ""
+msgstr "Якщо позначено, можна буде вибирати цілі пакунки для переміщення"
 
 #. module: stock_reserve
 #: model:ir.model.fields,field_description:stock_reserve.field_stock_reservation__is_inventory
@@ -341,7 +365,7 @@ msgstr "Кількість рядків переміщення"
 #. module: stock_reserve
 #: model:ir.model.fields,help:stock_reserve.field_stock_reservation__origin_returned_move_id
 msgid "Move that created the return move"
-msgstr ""
+msgstr "Переміщення, що створило повернення"
 
 #. module: stock_reserve
 #: model_terms:ir.ui.view,arch_db:stock_reserve.view_stock_reservation_search
@@ -379,21 +403,23 @@ msgid ""
 "Optional address where goods are to be delivered, specifically used for "
 "allotment"
 msgstr ""
+"Необов’язкова адреса доставки товарів, що використовується спеціально для "
+"розподілу"
 
 #. module: stock_reserve
 #: model:ir.model.fields,help:stock_reserve.field_stock_reservation__returned_move_ids
 msgid "Optional: all returned moves created from this move"
-msgstr ""
+msgstr "Необов’язково: усі зворотні переміщення, створені з цього переміщення"
 
 #. module: stock_reserve
 #: model:ir.model.fields,help:stock_reserve.field_stock_reservation__move_dest_ids
 msgid "Optional: next stock move when chaining them"
-msgstr ""
+msgstr "Необов’язково: наступне складське переміщення в ланцюжку"
 
 #. module: stock_reserve
 #: model:ir.model.fields,help:stock_reserve.field_stock_reservation__move_orig_ids
 msgid "Optional: previous stock move when chaining them"
-msgstr ""
+msgstr "Необов’язково: попереднє складське переміщення в ланцюжку"
 
 #. module: stock_reserve
 #: model:ir.model.fields,field_description:stock_reserve.field_stock_reservation__origin_returned_move_id
@@ -433,7 +459,7 @@ msgstr "Відібрано"
 #. module: stock_reserve
 #: model:ir.model.fields,help:stock_reserve.field_stock_reservation__route_ids
 msgid "Preferred route"
-msgstr ""
+msgstr "Бажаний маршрут"
 
 #. module: stock_reserve
 #: model:ir.model.fields,field_description:stock_reserve.field_stock_reservation__priority
@@ -443,7 +469,7 @@ msgstr "Пріоритет"
 #. module: stock_reserve
 #: model:ir.model.fields,help:stock_reserve.field_stock_reservation__delay_alert_date
 msgid "Process at this date to be on time"
-msgstr ""
+msgstr "Обробити до цієї дати, щоб встигнути"
 
 #. module: stock_reserve
 #: model:ir.model.fields,field_description:stock_reserve.field_stock_reservation__group_id
@@ -495,7 +521,7 @@ msgstr "Кількість"
 #. module: stock_reserve
 #: model:ir.model.fields,help:stock_reserve.field_stock_reservation__availability
 msgid "Quantity in stock that can still be reserved for this move"
-msgstr ""
+msgstr "Кількість на складі, яку ще можна зарезервувати для цього переміщення"
 
 #. module: stock_reserve
 #: model:ir.model.fields,help:stock_reserve.field_stock_reservation__product_qty
@@ -567,6 +593,8 @@ msgstr "Зарезервована кількість пакування"
 #: model:ir.model.fields,help:stock_reserve.field_stock_reservation__date
 msgid "Scheduled date until move is done, then date of actual move processing"
 msgstr ""
+"Запланована дата до завершення переміщення, потім дата фактичної обробки "
+"переміщення"
 
 #. module: stock_reserve
 #: model:ir.model.fields,field_description:stock_reserve.field_stock_reservation__scrap_id
@@ -645,7 +673,7 @@ msgstr "Статус"
 #. module: stock_reserve
 #: model:ir.model,name:stock_reserve.model_stock_reservation
 msgid "Stock Reservation"
-msgstr ""
+msgstr "Резервування запасів"
 
 #. module: stock_reserve
 #: model:ir.actions.act_window,name:stock_reserve.action_stock_reservation_tree
@@ -680,7 +708,7 @@ msgstr "Метод постачання"
 #. module: stock_reserve
 #: model:ir.model.fields,help:stock_reserve.field_stock_reservation__rule_id
 msgid "The stock rule that created this stock move"
-msgstr ""
+msgstr "Правило запасів, що створило це складське переміщення"
 
 #. module: stock_reserve
 #: model:ir.model.fields,help:stock_reserve.field_stock_reservation__picked
@@ -688,6 +716,8 @@ msgid ""
 "This checkbox is just indicative, it doesn't validate or generate any "
 "product moves."
 msgstr ""
+"Цей прапорець має лише інформаційний характер і не підтверджує та не створює"
+" переміщень товару."
 
 #. module: stock_reserve
 #: model:ir.model.fields,help:stock_reserve.field_stock_reservation__product_uom_qty
@@ -696,6 +726,9 @@ msgid ""
 "quantity does not generate a backorder.Changing this quantity on assigned "
 "moves affects the product reservation, and should be done with care."
 msgstr ""
+"Це кількість товару, яку заплановано перемістити. Зменшення цієї кількості "
+"не створює зворотне замовлення. Зміна цієї кількості у призначених "
+"переміщеннях впливає на резервування товару, тому робити це слід обережно."
 
 #. module: stock_reserve
 #: model_terms:ir.actions.act_window,help:stock_reserve.action_stock_reservation_tree
@@ -722,6 +755,8 @@ msgid ""
 "Trigger a decrease of the delivered/received quantity in the associated Sale"
 " Order/Purchase Order"
 msgstr ""
+"Зменшити доставлену/отриману кількість у пов’язаному замовленні на "
+"продаж/закупівлю"
 
 #. module: stock_reserve
 #: model:ir.model.fields,field_description:stock_reserve.field_stock_reservation__picking_code
@@ -779,6 +814,8 @@ msgid ""
 "the warehouse to consider for the route selection on the next procurement "
 "(if any)."
 msgstr ""
+"склад, який слід враховувати для вибору маршруту під час наступного "
+"забезпечення (якщо буде)."
 
 #. module: stock_reserve
 #: model:ir.model.fields,field_description:stock_reserve.field_stock_reservation__sale_line_id
@@ -834,6 +871,50 @@ msgstr "Кількість серійних номерів/партій"
 #: model:ir.model.fields,field_description:stock_reserve.field_stock_reservation__use_expiration_date
 msgid "Use Expiration Date"
 msgstr "Використовувати дату завершення"
+
+#. module: stock_reserve
+#: model:ir.model.fields,help:stock_reserve.field_stock_reservation__is_storable
+msgid "A storable product is a product for which you manage stock."
+msgstr "Складський товар — це товар, для якого ведеться облік запасів."
+
+#. module: stock_reserve
+#: model:ir.model.fields,help:stock_reserve.field_stock_reservation__date_deadline
+msgid ""
+"In case of outgoing flow, validate the transfer before this date to allow to deliver at promised date to the customer.\n"
+"        In case of incoming flow, validate the transfer before this date in order to have these products in stock at the date promised by the supplier"
+msgstr ""
+"Для вихідного потоку підтвердьте переміщення до цієї дати, щоб доставити клієнту в обіцяну дату.\n"
+"Для вхідного потоку підтвердьте переміщення до цієї дати, щоб товари були на складі в дату, обіцяну постачальником."
+
+#. module: stock_reserve
+#: model:ir.model.fields,help:stock_reserve.field_stock_reservation__location_final_id
+msgid ""
+"The operation brings the products to the intermediate location.But this "
+"operation is part of a chain of operations targeting the final location."
+msgstr ""
+"Операція переміщує товари до проміжної локації. Водночас ця операція є "
+"частиною ланцюжка операцій, спрямованого до кінцевої локації."
+
+#. module: stock_reserve
+#: model:ir.model.fields,help:stock_reserve.field_stock_reservation__location_id
+msgid "The operation takes and suggests products from this location."
+msgstr "Операція бере та пропонує товари з цього місця."
+
+#. module: stock_reserve
+#: model:ir.model.fields,help:stock_reserve.field_stock_reservation__location_dest_id
+msgid "The operations brings product to this location"
+msgstr "Операції переміщують товар у це місце"
+
+#. module: stock_reserve
+#: model:ir.model.fields,help:stock_reserve.field_stock_reservation__use_expiration_date
+msgid ""
+"When this box is ticked, you have the possibility to specify dates to manage"
+" product expiration, on the product and on the corresponding lot/serial "
+"numbers"
+msgstr ""
+"Якщо встановити цей прапорець, ви зможете вказувати дати для керування "
+"терміном придатності товару — як на самому товарі, так і на відповідній "
+"партії/серійному номері."
 
 #~ msgid "Last Modified on"
 #~ msgstr "Остання модифікація"

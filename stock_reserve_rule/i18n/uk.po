@@ -173,3 +173,55 @@ msgstr "Примусово перепризначити частково"
 #: model_terms:ir.ui.view,arch_db:stock_reserve_rule.view_stock_reserve_rule_form
 msgid "Rule Applicability"
 msgstr "Застосовність правила"
+
+#. module: stock_reserve_rule
+#: model:ir.model.fields,help:stock_reserve_rule.field_stock_reserve_rule__picking_type_ids
+msgid "Apply this rule only if the operation type of the move is the same."
+msgstr ""
+"Застосовувати це правило лише якщо тип операції переміщення збігається."
+
+#. module: stock_reserve_rule
+#: model:ir.model.fields,help:stock_reserve_rule.field_stock_reserve_rule__force_reassign_partial
+msgid ""
+"Check this box if you want to remove existing reservation when checking "
+"availabilty of partially available moves."
+msgstr ""
+"Позначте, якщо потрібно знімати наявне резервування під час перевірки "
+"доступності частково доступних переміщень."
+
+#. module: stock_reserve_rule
+#: model:ir.model.fields,help:stock_reserve_rule.field_stock_reserve_rule_removal__removal_strategy
+msgid ""
+"Defines if and how goods are taken from locations.Default: take the first ones with the configured Removal Strategy(FIFO, FEFO, ...).\n"
+"Empty Bins: take goods from a location only if the bin is empty afterwards.\n"
+"Full Packaging: take goods from a location only if the location quantity matches a packaging quantity (do not open boxes)."
+msgstr ""
+"Визначає, чи й як товари відбираються з розташувань. Типово: брати перші за налаштованою стратегією вибуття (FIFO, FEFO, ...).\n"
+"Порожні комірки: брати товари з розташування лише якщо після цього комірка стане порожньою.\n"
+"Повне пакування: брати товари з розташування лише якщо кількість у ньому відповідає кількості пакування (не відкривати коробки)."
+
+#. module: stock_reserve_rule
+#: model:ir.model.fields,help:stock_reserve_rule.field_stock_reserve_rule__rule_domain
+msgid ""
+"Domain based on Stock Moves, to define if the rule is applicable or not."
+msgstr ""
+"Домен на основі складських переміщень, що визначає, чи застосовується "
+"правило."
+
+#. module: stock_reserve_rule
+#: model:ir.model.fields,help:stock_reserve_rule.field_stock_reserve_rule_removal__quant_domain
+msgid ""
+"Filter Quants allowed to be reserved for this location and sub-locations."
+msgstr ""
+"Фільтр квантів, які дозволено резервувати для цього місця розташування та "
+"його підрозділів."
+
+#. module: stock_reserve_rule
+#: model:ir.model.fields,help:stock_reserve_rule.field_stock_reserve_rule__location_id
+msgid "Rule applied only in this location and sub-locations."
+msgstr "Правило застосовується лише в цьому місці та його підмісцях."
+
+#. module: stock_reserve_rule
+#: model:ir.model,name:stock_reserve_rule.model_stock_reserve_rule_removal
+msgid "Stock Reservation Rule Removal"
+msgstr "Видалення правила резервування запасів"

@@ -17,3 +17,14 @@ msgstr ""
 #: model:ir.model.fields,field_description:stock_rule_reserve_max_quantity.field_stock_rule__reserve_max_quantity
 msgid "Reserve Max Quantity"
 msgstr "Резервувати максимальну кількість"
+
+#. module: stock_rule_reserve_max_quantity
+#: model:ir.model.fields,help:stock_rule_reserve_max_quantity.field_stock_rule__reserve_max_quantity
+msgid ""
+"If checked, the system will reserve the maximum quantity available for the "
+"moves that have this rule linked, when the quantity available exceeds the "
+"quantity demanded"
+msgstr ""
+"Якщо позначено, система резервуватиме максимально доступну кількість для "
+"переміщень, пов’язаних із цим правилом, коли доступна кількість перевищує "
+"потрібну."

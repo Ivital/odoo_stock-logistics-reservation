@@ -21,12 +21,12 @@ msgstr ""
 #. module: stock_quant_manual_assign
 #: model:ir.model,name:stock_quant_manual_assign.model_assign_manual_quants
 msgid "Assign Manual Quants"
-msgstr ""
+msgstr "Призначити кванти вручну"
 
 #. module: stock_quant_manual_assign
 #: model:ir.model,name:stock_quant_manual_assign.model_assign_manual_quants_lines
 msgid "Assign Manual Quants Lines"
-msgstr ""
+msgstr "Рядки ручного призначення квантів"
 
 #. module: stock_quant_manual_assign
 #: model_terms:ir.ui.view,arch_db:stock_quant_manual_assign.assign_manual_quants_form_view
@@ -170,12 +170,12 @@ msgstr ""
 #. module: stock_quant_manual_assign
 #: model:ir.model.fields,help:stock_quant_manual_assign.field_assign_manual_quants_lines__package_id
 msgid "The package containing this quant"
-msgstr ""
+msgstr "Пакування, що містить цей квант"
 
 #. module: stock_quant_manual_assign
 #: model:ir.model.fields,help:stock_quant_manual_assign.field_assign_manual_quants_lines__owner_id
 msgid "This is the owner of the quant"
-msgstr ""
+msgstr "Це власник кванта"
 
 #. module: stock_quant_manual_assign
 #: model_terms:ir.ui.view,arch_db:stock_quant_manual_assign.assign_manual_quants_form_view
