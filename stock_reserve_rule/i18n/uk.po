@@ -148,3 +148,28 @@ msgstr "Видалення правила"
 #: model:ir.model,name:stock_reserve_rule.model_stock_reserve_rule
 msgid "Stock Reservation Rule"
 msgstr "Правило резервування запасів"
+
+#. module: stock_reserve_rule
+#: model_terms:ir.actions.act_window,help:stock_reserve_rule.action_stock_reserve_rule
+msgid "Add a Reservation Rule"
+msgstr "Додати правило резервування"
+
+#. module: stock_reserve_rule
+#: model:ir.model.fields,field_description:stock_reserve_rule.field_stock_reserve_rule_removal__removal_strategy
+msgid "Advanced Removal Strategy"
+msgstr "Розширена стратегія вилучення"
+
+#. module: stock_reserve_rule
+#: model:ir.model.fields.selection,name:stock_reserve_rule.selection__stock_reserve_rule_removal__removal_strategy__default
+msgid "Default Removal Strategy"
+msgstr "Стратегія вилучення за замовчуванням"
+
+#. module: stock_reserve_rule
+#: model:ir.model.fields,field_description:stock_reserve_rule.field_stock_reserve_rule__force_reassign_partial
+msgid "Force Reassign Partial"
+msgstr "Примусово перепризначити частково"
+
+#. module: stock_reserve_rule
+#: model_terms:ir.ui.view,arch_db:stock_reserve_rule.view_stock_reserve_rule_form
+msgid "Rule Applicability"
+msgstr "Застосовність правила"

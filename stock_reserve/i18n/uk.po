@@ -63,12 +63,12 @@ msgstr "Бухгалтерський запис"
 #. module: stock_reserve
 #: model:ir.model.fields,field_description:stock_reserve.field_stock_reservation__returned_move_ids
 msgid "All returned moves"
-msgstr ""
+msgstr "Усі повернені рухи"
 
 #. module: stock_reserve
 #: model:ir.model.fields,field_description:stock_reserve.field_stock_reservation__analytic_account_line_ids
 msgid "Analytic Account Line"
-msgstr ""
+msgstr "Рядок аналітичного рахунку"
 
 #. module: stock_reserve
 #: model:ir.model.fields,help:stock_reserve.field_stock_reservation__procure_method
@@ -94,7 +94,7 @@ msgstr ""
 #. module: stock_reserve
 #: model_terms:ir.actions.act_window,help:stock_reserve.action_stock_reservation_tree
 msgid "Click to create a stock reservation."
-msgstr ""
+msgstr "Натисніть, щоб створити резервування запасу."
 
 #. module: stock_reserve
 #: model:ir.model.fields,field_description:stock_reserve.field_stock_reservation__company_id
@@ -117,6 +117,8 @@ msgid ""
 "Conversion between Units of Measure can only occur if they belong to the "
 "same category. The conversion will be made based on the ratios."
 msgstr ""
+"Перетворення між одиницями вимірювання можливе лише тоді, коли вони належать"
+" до однієї категорії. Перетворення виконується на основі коефіцієнтів."
 
 #. module: stock_reserve
 #: model:ir.model.fields,field_description:stock_reserve.field_stock_reservation__create_uid
@@ -166,7 +168,7 @@ msgstr "Опис"
 #. module: stock_reserve
 #: model:ir.model.fields,field_description:stock_reserve.field_stock_reservation__description_picking
 msgid "Description of Picking"
-msgstr ""
+msgstr "Опис переміщення"
 
 #. module: stock_reserve
 #: model:ir.model.fields,field_description:stock_reserve.field_stock_reservation__partner_id
@@ -181,17 +183,17 @@ msgstr ""
 #. module: stock_reserve
 #: model:ir.model.fields,field_description:stock_reserve.field_stock_reservation__location_dest_usage
 msgid "Destination Location Type"
-msgstr ""
+msgstr "Тип місця призначення"
 
 #. module: stock_reserve
 #: model:ir.model.fields,field_description:stock_reserve.field_stock_reservation__move_dest_ids
 msgid "Destination Moves"
-msgstr ""
+msgstr "Рухи призначення"
 
 #. module: stock_reserve
 #: model:ir.model.fields,field_description:stock_reserve.field_stock_reservation__route_ids
 msgid "Destination route"
-msgstr ""
+msgstr "Маршрут призначення"
 
 #. module: stock_reserve
 #: model_terms:ir.ui.view,arch_db:stock_reserve.view_stock_reservation_form
@@ -206,12 +208,12 @@ msgstr "Деталі видимі"
 #. module: stock_reserve
 #: model:ir.model.fields,field_description:stock_reserve.field_stock_reservation__display_assign_serial
 msgid "Display Assign Serial"
-msgstr ""
+msgstr "Показувати призначення серійного номера"
 
 #. module: stock_reserve
 #: model:ir.model.fields,field_description:stock_reserve.field_stock_reservation__display_import_lot
 msgid "Display Import Lot"
-msgstr ""
+msgstr "Показувати партію імпорту"
 
 #. module: stock_reserve
 #: model:ir.model.fields,field_description:stock_reserve.field_stock_reservation__display_name
@@ -231,7 +233,7 @@ msgstr "Чернетка"
 #. module: stock_reserve
 #: model:ir.model.fields,help:stock_reserve.field_stock_reservation__has_tracking
 msgid "Ensure the traceability of a storable product in your warehouse."
-msgstr ""
+msgstr "Забезпечує простежуваність складованого товару на вашому складі."
 
 #. module: stock_reserve
 #: model:ir.model.fields,field_description:stock_reserve.field_stock_reservation__next_serial
@@ -241,12 +243,12 @@ msgstr ""
 #. module: stock_reserve
 #: model:ir.model.fields,field_description:stock_reserve.field_stock_reservation__forecast_availability
 msgid "Forecast Availability"
-msgstr ""
+msgstr "Прогнозована доступність"
 
 #. module: stock_reserve
 #: model:ir.model.fields,field_description:stock_reserve.field_stock_reservation__forecast_expected_date
 msgid "Forecasted Expected date"
-msgstr ""
+msgstr "Прогнозована очікувана дата"
 
 #. module: stock_reserve
 #: model:ir.model.fields,field_description:stock_reserve.field_stock_reservation__availability
@@ -294,12 +296,12 @@ msgstr "Заблоковано"
 #. module: stock_reserve
 #: model:ir.model.fields,field_description:stock_reserve.field_stock_reservation__is_initial_demand_editable
 msgid "Is initial demand editable"
-msgstr ""
+msgstr "Можна редагувати початкову потребу"
 
 #. module: stock_reserve
 #: model:ir.model.fields,field_description:stock_reserve.field_stock_reservation__is_quantity_done_editable
 msgid "Is quantity done editable"
-msgstr ""
+msgstr "Можна редагувати виконану кількість"
 
 #. module: stock_reserve
 #: model:ir.model.fields,field_description:stock_reserve.field_stock_reservation__write_uid
@@ -324,7 +326,7 @@ msgstr "Розташування"
 #. module: stock_reserve
 #: model:ir.model.fields,field_description:stock_reserve.field_stock_reservation__picking_type_entire_packs
 msgid "Move Entire Packages"
-msgstr ""
+msgstr "Переміщувати цілі пакунки"
 
 #. module: stock_reserve
 #: model:ir.model.fields,field_description:stock_reserve.field_stock_reservation__move_line_ids
@@ -344,17 +346,17 @@ msgstr ""
 #. module: stock_reserve
 #: model_terms:ir.ui.view,arch_db:stock_reserve.view_stock_reservation_search
 msgid "Moves are Confirmed."
-msgstr ""
+msgstr "Рухи підтверджено."
 
 #. module: stock_reserve
 #: model_terms:ir.ui.view,arch_db:stock_reserve.view_stock_reservation_search
 msgid "Moves are reserved."
-msgstr ""
+msgstr "Рухи зарезервовано."
 
 #. module: stock_reserve
 #: model_terms:ir.ui.view,arch_db:stock_reserve.view_stock_reservation_search
 msgid "Not already reserved"
-msgstr ""
+msgstr "Ще не зарезервовано"
 
 #. module: stock_reserve
 #: model:ir.model.fields,field_description:stock_reserve.field_stock_reservation__note
@@ -396,7 +398,7 @@ msgstr ""
 #. module: stock_reserve
 #: model:ir.model.fields,field_description:stock_reserve.field_stock_reservation__origin_returned_move_id
 msgid "Origin return move"
-msgstr ""
+msgstr "Початковий рух повернення"
 
 #. module: stock_reserve
 #: model:ir.model.fields,field_description:stock_reserve.field_stock_reservation__move_orig_ids
@@ -406,7 +408,7 @@ msgstr "Початкове переміщення"
 #. module: stock_reserve
 #: model:ir.model.fields,field_description:stock_reserve.field_stock_reservation__orderpoint_id
 msgid "Original Reordering Rule"
-msgstr ""
+msgstr "Початкове правило поповнення"
 
 #. module: stock_reserve
 #: model:ir.model.fields,field_description:stock_reserve.field_stock_reservation__restrict_partner_id
@@ -478,12 +480,12 @@ msgstr ""
 #. module: stock_reserve
 #: model:ir.model.fields,field_description:stock_reserve.field_stock_reservation__has_tracking
 msgid "Product with Tracking"
-msgstr ""
+msgstr "Товар з відстеженням"
 
 #. module: stock_reserve
 #: model:ir.model.fields,field_description:stock_reserve.field_stock_reservation__propagate_cancel
 msgid "Propagate cancel and split"
-msgstr ""
+msgstr "Поширювати скасування та розділення"
 
 #. module: stock_reserve
 #: model:ir.model.fields,field_description:stock_reserve.field_stock_reservation__quantity
@@ -498,7 +500,7 @@ msgstr ""
 #. module: stock_reserve
 #: model:ir.model.fields,help:stock_reserve.field_stock_reservation__product_qty
 msgid "Quantity in the default UoM of the product"
-msgstr ""
+msgstr "Кількість у типовій одиниці вимірювання товару"
 
 #. module: stock_reserve
 #: model:ir.model.fields,field_description:stock_reserve.field_stock_reservation__product_qty
@@ -524,7 +526,7 @@ msgstr "Вивільнити"
 #. module: stock_reserve
 #: model:ir.actions.server,name:stock_reserve.ir_cron_release_stock_reservation_ir_actions_server
 msgid "Release the stock reservation having a passed validity date"
-msgstr ""
+msgstr "Зняти резервування запасів із простроченим строком дії"
 
 #. module: stock_reserve
 #: model_terms:ir.ui.view,arch_db:stock_reserve.view_stock_reservation_form
@@ -543,7 +545,7 @@ msgstr "Переміщення резервування"
 #. module: stock_reserve
 #: model_terms:ir.ui.view,arch_db:stock_reserve.view_stock_reservation_search
 msgid "Reservations have been released."
-msgstr ""
+msgstr "Резервування випущено."
 
 #. module: stock_reserve
 #: model_terms:ir.ui.view,arch_db:stock_reserve.view_stock_reservation_form
@@ -596,7 +598,7 @@ msgstr ""
 #. module: stock_reserve
 #: model:ir.model.fields,field_description:stock_reserve.field_stock_reservation__show_operations
 msgid "Show Detailed Operations"
-msgstr ""
+msgstr "Показувати детальні операції"
 
 #. module: stock_reserve
 #: model:ir.model.fields,field_description:stock_reserve.field_stock_reservation__show_quant
@@ -632,7 +634,7 @@ msgstr "Початкове місце"
 #. module: stock_reserve
 #: model:ir.model.fields,field_description:stock_reserve.field_stock_reservation__location_usage
 msgid "Source Location Type"
-msgstr ""
+msgstr "Тип початкового місця"
 
 #. module: stock_reserve
 #: model:ir.model.fields,field_description:stock_reserve.field_stock_reservation__state
@@ -668,7 +670,7 @@ msgstr "Шар оцінки запасів"
 #. module: stock_reserve
 #: model:ir.actions.server,name:stock_reserve.ir_cron_reserve_waiting_confirmed_ir_actions_server
 msgid "Stock reservation: Assign waiting/confirmed reserve moves"
-msgstr ""
+msgstr "Резервування запасів: призначити очікуючі/підтверджені переміщення"
 
 #. module: stock_reserve
 #: model:ir.model.fields,field_description:stock_reserve.field_stock_reservation__procure_method
@@ -701,6 +703,8 @@ msgid ""
 "This menu allow you to prepare and reserve some quantities\n"
 "            of products."
 msgstr ""
+"Це меню дає змогу підготувати та зарезервувати певну кількість\n"
+"            товарів."
 
 #. module: stock_reserve
 #: model_terms:ir.ui.view,arch_db:stock_reserve.view_stock_reservation_tree
@@ -722,7 +726,7 @@ msgstr ""
 #. module: stock_reserve
 #: model:ir.model.fields,field_description:stock_reserve.field_stock_reservation__picking_code
 msgid "Type of Operation"
-msgstr ""
+msgstr "Тип операції"
 
 #. module: stock_reserve
 #: model:ir.model.fields,field_description:stock_reserve.field_stock_reservation__price_unit
@@ -737,7 +741,7 @@ msgstr "Од. вим."
 #. module: stock_reserve
 #: model:ir.model.fields,field_description:stock_reserve.field_stock_reservation__to_refund
 msgid "Update quantities on SO/PO"
-msgstr ""
+msgstr "Оновити кількості в SO/PO"
 
 #. module: stock_reserve
 #: model:ir.model.fields,field_description:stock_reserve.field_stock_reservation__date_validity
@@ -747,7 +751,7 @@ msgstr "Дата чинності"
 #. module: stock_reserve
 #: model_terms:ir.ui.view,arch_db:stock_reserve.view_stock_reservation_form
 msgid "View Reservation Move"
-msgstr ""
+msgstr "Переглянути переміщення резервування"
 
 #. module: stock_reserve
 #: model:ir.model.fields,field_description:stock_reserve.field_stock_reservation__volume
@@ -767,7 +771,7 @@ msgstr "Склад"
 #. module: stock_reserve
 #: model:ir.model.fields,field_description:stock_reserve.field_stock_reservation__additional
 msgid "Whether the move was added after the picking's confirmation"
-msgstr ""
+msgstr "Чи було переміщення додано після підтвердження переміщення"
 
 #. module: stock_reserve
 #: model:ir.model.fields,help:stock_reserve.field_stock_reservation__warehouse_id
@@ -805,6 +809,31 @@ msgstr "Рядок замовлення на закупівлю"
 #: model:ir.model.fields,field_description:stock_reserve.field_stock_reservation__is_storable
 msgid "Track Inventory"
 msgstr "Відстежувати запаси"
+
+#. module: stock_reserve
+#: model:ir.model.fields,field_description:stock_reserve.field_stock_reservation__created_purchase_line_ids
+msgid "Created Purchase Order Lines"
+msgstr "Створені рядки замовлення закупівлі"
+
+#. module: stock_reserve
+#: model:ir.model.fields,field_description:stock_reserve.field_stock_reservation__location_dest_id
+msgid "Intermediate Location"
+msgstr "Проміжне місце"
+
+#. module: stock_reserve
+#: model:ir.model.fields,field_description:stock_reserve.field_stock_reservation__never_product_template_attribute_value_ids
+msgid "Never attribute Values"
+msgstr "Ніколи не призначати значення"
+
+#. module: stock_reserve
+#: model:ir.model.fields,field_description:stock_reserve.field_stock_reservation__next_serial_count
+msgid "Number of SN/Lots"
+msgstr "Кількість серійних номерів/партій"
+
+#. module: stock_reserve
+#: model:ir.model.fields,field_description:stock_reserve.field_stock_reservation__use_expiration_date
+msgid "Use Expiration Date"
+msgstr "Використовувати дату завершення"
 
 #~ msgid "Last Modified on"
 #~ msgstr "Остання модифікація"

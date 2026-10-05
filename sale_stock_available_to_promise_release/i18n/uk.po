@@ -124,3 +124,23 @@ msgstr "Сьогоднішнє відвантаження"
 #: model_terms:ir.ui.view,arch_db:sale_stock_available_to_promise_release.report_saleorder_document
 msgid "Yes"
 msgstr "Так"
+
+#. module: sale_stock_available_to_promise_release
+#: model_terms:ir.ui.view,arch_db:sale_stock_available_to_promise_release.report_saleorder_document
+msgid "<strong>Expected delivery</strong>"
+msgstr "<strong>Очікувана доставка</strong>"
+
+#. module: sale_stock_available_to_promise_release
+#: model:ir.model.fields,field_description:sale_stock_available_to_promise_release.field_sale_order_line__availability_status
+msgid "Availability Status"
+msgstr "Статус доступності"
+
+#. module: sale_stock_available_to_promise_release
+#: model:ir.model.fields,field_description:sale_stock_available_to_promise_release.field_sale_order_line__expected_availability_date
+msgid "Expected Availability Date"
+msgstr "Очікувана дата доступності"
+
+#. module: sale_stock_available_to_promise_release
+#: model:ir.model.fields,field_description:sale_stock_available_to_promise_release.field_sale_order__is_ok_expected_delivery_date
+msgid "Is Ok Expected Delivery Date"
+msgstr "Очікувана дата доставки коректна"

@@ -217,3 +217,167 @@ msgstr "дні"
 #: model_terms:ir.ui.view,arch_db:stock_available_to_promise_release.res_config_settings_view_form_stock
 msgid "minutes"
 msgstr "хвилини"
+
+#. module: stock_available_to_promise_release
+#: model:ir.model.fields,field_description:stock_available_to_promise_release.field_stock_picking__need_release_count
+msgid "# of need release moves"
+msgstr "К-сть переміщень, що потребують випуску"
+
+#. module: stock_available_to_promise_release
+#: model_terms:ir.ui.view,arch_db:stock_available_to_promise_release.stock_picking_type_kanban
+msgid "<span class=\"col-6\">Need Release</span>"
+msgstr "<span class=\"col-6\">Потребує випуску</span>"
+
+#. module: stock_available_to_promise_release
+#: model_terms:ir.ui.view,arch_db:stock_available_to_promise_release.view_picking_release_form
+msgid ""
+"<span class=\"o_stat_text\">Release:</span>\n"
+"                        <span class=\"o_stat_text\">Ready:</span>"
+msgstr ""
+"<span class=\"o_stat_text\">Випуск:</span>\n"
+"                        <span class=\"o_stat_text\">Готовність:</span>"
+
+#. module: stock_available_to_promise_release
+#: model_terms:ir.ui.view,arch_db:stock_available_to_promise_release.stock_picking_type_form
+msgid "Chained moves release process"
+msgstr "Процес випуску ланцюгових переміщень"
+
+#. module: stock_available_to_promise_release
+#: model_terms:ir.ui.view,arch_db:stock_available_to_promise_release.res_config_settings_view_form_stock
+msgid ""
+"Compute product quantity to be delivered based on given days of horizon."
+msgstr ""
+"Обчислювати кількість товару до доставки на основі заданого горизонту в "
+"днях."
+
+#. module: stock_available_to_promise_release
+#: model:ir.model.fields,help:stock_available_to_promise_release.field_res_company__stock_reservation_horizon
+#: model:ir.model.fields,help:stock_available_to_promise_release.field_res_config_settings__stock_reservation_horizon
+msgid ""
+"Compute promised quantities for order planned to be shipped until this "
+"number of days from today."
+msgstr ""
+"Обчислювати обіцяні кількості для замовлення, яке планується відправити "
+"протягом цієї кількості днів від сьогодні."
+
+#. module: stock_available_to_promise_release
+#: model:ir.model.fields,field_description:stock_available_to_promise_release.field_stock_picking_type__count_picking_need_release
+msgid "Count Picking Need Release"
+msgstr "Кількість переміщень, що потребують випуску"
+
+#. module: stock_available_to_promise_release
+#: model_terms:ir.actions.act_window,help:stock_available_to_promise_release.stock_move_release_action
+msgid "Create a new stock movement"
+msgstr "Створити нове переміщення запасів"
+
+#. module: stock_available_to_promise_release
+#: model:ir.model.fields,help:stock_available_to_promise_release.field_stock_move__date_priority
+#: model:ir.model.fields,help:stock_available_to_promise_release.field_stock_picking__date_priority
+#: model:ir.model.fields,help:stock_available_to_promise_release.field_stock_reservation__date_priority
+msgid ""
+"Date/time used to sort moves to deliver first. Used to calculate the ordered"
+" available to promise."
+msgstr ""
+"Дата/час, що використовується для сортування переміщень, які потрібно "
+"доставити першими. Використовується для розрахунку впорядкованої доступності"
+" до обіцянки."
+
+#. module: stock_available_to_promise_release
+#: model:ir.model.fields,field_description:stock_available_to_promise_release.field_stock_picking__last_release_date
+msgid "Last Release Date"
+msgstr "Дата останнього випуску"
+
+#. module: stock_available_to_promise_release
+#: model_terms:ir.actions.act_window,help:stock_available_to_promise_release.stock_picking_release_action
+msgid "No transfers to release."
+msgstr "Немає переміщень для випуску."
+
+#. module: stock_available_to_promise_release
+#: model:ir.model.fields,field_description:stock_available_to_promise_release.field_stock_picking_type__prevent_new_move_after_release
+msgid "Prevent new move after release"
+msgstr "Заборонити нове переміщення після випуску"
+
+#. module: stock_available_to_promise_release
+#: model:ir.actions.act_window,name:stock_available_to_promise_release.action_view_stock_move_release_form
+msgid "Release Move Allocations"
+msgstr "Випустити розподіли переміщення"
+
+#. module: stock_available_to_promise_release
+#: model:ir.actions.act_window,name:stock_available_to_promise_release.action_view_stock_picking_release_form
+msgid "Release Transfers Allocations"
+msgstr "Випустити розподіли переміщень"
+
+#. module: stock_available_to_promise_release
+#: model_terms:ir.ui.view,arch_db:stock_available_to_promise_release.res_config_settings_view_form_stock
+msgid "Stock Allocations Releases"
+msgstr "Випуски розподілів запасів"
+
+#. module: stock_available_to_promise_release
+#: model_terms:ir.ui.view,arch_db:stock_available_to_promise_release.view_stock_release_form
+msgid "The selected records will be released."
+msgstr "Вибрані записи буде випущено."
+
+#. module: stock_available_to_promise_release
+#: model_terms:ir.ui.view,arch_db:stock_available_to_promise_release.view_stock_unrelease_form
+msgid "The selected records will be unreleased."
+msgstr "Вибрані записи буде знято з випуску."
+
+#. module: stock_available_to_promise_release
+#: model_terms:ir.actions.act_window,help:stock_available_to_promise_release.stock_move_release_action
+msgid ""
+"This menu gives you the full traceability of inventory\n"
+"                operations on a specific product. You can filter on the product\n"
+"                to see all the past or future movements for the product."
+msgstr ""
+"Це меню забезпечує повну простежуваність складських\n"
+"                операцій для конкретного товару. Можна відфільтрувати за товаром,\n"
+"                щоб переглянути всі його минулі або майбутні переміщення."
+
+#. module: stock_available_to_promise_release
+#: model:ir.actions.act_window,name:stock_available_to_promise_release.action_view_stock_move_unrelease_form
+msgid "Unrelease Move Allocations"
+msgstr "Скасувати випуск розподілів переміщення"
+
+#. module: stock_available_to_promise_release
+#: model:ir.actions.act_window,name:stock_available_to_promise_release.action_view_stock_picking_unrelease_form
+msgid "Unrelease Transfers Allocations"
+msgstr "Скасувати випуск розподілів переміщень"
+
+#. module: stock_available_to_promise_release
+#: model:ir.model.fields,field_description:stock_available_to_promise_release.field_stock_picking_type__unrelease_on_backorder
+msgid "Unrelease on backorder"
+msgstr "Скасувати випуск для дозамовлення"
+
+#. module: stock_available_to_promise_release
+#: model_terms:ir.ui.view,arch_db:stock_available_to_promise_release.view_picking_release_tree
+msgid "View Move Allocations"
+msgstr "Переглянути розподіли переміщення"
+
+#. module: stock_available_to_promise_release
+#: model_terms:ir.ui.view,arch_db:stock_available_to_promise_release.res_config_settings_view_form_stock
+msgid ""
+"When your release transfers, their expected date\n"
+"                                is rescheduled to now + this preparation time (in minutes).\n"
+"                                Their scheduled date represents the latest the\n"
+"                                transfers should be done, and therefore, past\n"
+"                                this timestamp, considered late."
+msgstr ""
+"Коли ви випускаєте переміщення, їх очікувана дата\n"
+"                                переплановується на поточний час + цей час підготовки (у хвилинах).\n"
+"                                Запланована дата означає найпізніший момент, коли\n"
+"                                переміщення мають бути виконані, тому після\n"
+"                                цього часу вони вважаються простроченими."
+
+#. module: stock_available_to_promise_release
+#: model:ir.model.fields,help:stock_available_to_promise_release.field_res_company__stock_release_max_prep_time
+#: model:ir.model.fields,help:stock_available_to_promise_release.field_res_config_settings__stock_release_max_prep_time
+msgid ""
+"When your release transfers, their scheduled date is rescheduled to now + "
+"this preparation time (in minutes). Their scheduled date represents the "
+"latest the transfers should be done, and therefore, past this timestamp, "
+"considered late."
+msgstr ""
+"Коли ви випускаєте переміщення, їх запланована дата переноситься на поточний"
+" час + цей час підготовки (у хвилинах). Запланована дата означає найпізніший"
+" момент, коли переміщення мають бути виконані, тому після цього часу вони "
+"вважаються простроченими."
