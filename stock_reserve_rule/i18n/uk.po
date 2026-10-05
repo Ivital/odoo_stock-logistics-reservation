@@ -1,0 +1,82 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-10-05 05:40+0000\n"
+"Last-Translator: Ivital <Ivital@users.noreply.github.com>\n"
+"Language-Team: Ukrainian\n"
+"Language: uk_UA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#. module: stock_reserve_rule
+#: model:ir.model.fields,field_description:stock_reserve_rule.field_stock_reserve_rule__active
+msgid "Active"
+msgstr "Активний"
+
+#. module: stock_reserve_rule
+#: model_terms:ir.ui.view,arch_db:stock_reserve_rule.view_stock_reserve_rule_form
+#: model_terms:ir.ui.view,arch_db:stock_reserve_rule.view_stock_reserve_rule_search
+msgid "Archived"
+msgstr "Архівовано"
+
+#. module: stock_reserve_rule
+#: model:ir.model.fields,field_description:stock_reserve_rule.field_stock_reserve_rule__company_id
+msgid "Company"
+msgstr "Компанія"
+
+#. module: stock_reserve_rule
+#: model:ir.model.fields,field_description:stock_reserve_rule.field_stock_reserve_rule__create_uid
+#: model:ir.model.fields,field_description:stock_reserve_rule.field_stock_reserve_rule_removal__create_uid
+msgid "Created by"
+msgstr "Створив"
+
+#. module: stock_reserve_rule
+#: model:ir.model.fields,field_description:stock_reserve_rule.field_stock_reserve_rule__create_date
+#: model:ir.model.fields,field_description:stock_reserve_rule.field_stock_reserve_rule_removal__create_date
+msgid "Created on"
+msgstr "Створено"
+
+#. module: stock_reserve_rule
+#: model:ir.model.fields,field_description:stock_reserve_rule.field_stock_reserve_rule__name
+#: model:ir.model.fields,field_description:stock_reserve_rule.field_stock_reserve_rule_removal__name
+msgid "Description"
+msgstr "Опис"
+
+#. module: stock_reserve_rule
+#: model:ir.model.fields,field_description:stock_reserve_rule.field_stock_reserve_rule__display_name
+#: model:ir.model.fields,field_description:stock_reserve_rule.field_stock_reserve_rule_removal__display_name
+msgid "Display Name"
+msgstr "Відображувана назва"
+
+#. module: stock_reserve_rule
+#: model:ir.model.fields,field_description:stock_reserve_rule.field_stock_reserve_rule__location_id
+#: model:ir.model.fields,field_description:stock_reserve_rule.field_stock_reserve_rule_removal__location_id
+msgid "Location"
+msgstr "Розташування"
+
+#. module: stock_reserve_rule
+#: model:ir.actions.act_window,name:stock_reserve_rule.action_stock_reserve_rule
+#: model:ir.ui.menu,name:stock_reserve_rule.menu_stock_reserve_rule
+msgid "Reservation Rules"
+msgstr "Правила резервування"
+
+#. module: stock_reserve_rule
+#: model:ir.model.fields,field_description:stock_reserve_rule.field_stock_reserve_rule_removal__rule_id
+msgid "Rule"
+msgstr "Правило"
+
+#. module: stock_reserve_rule
+#: model:ir.model.fields,field_description:stock_reserve_rule.field_stock_reserve_rule__rule_domain
+msgid "Rule Domain"
+msgstr "Домен правила"
+
+#. module: stock_reserve_rule
+#: model:ir.model.fields,field_description:stock_reserve_rule.field_stock_reserve_rule__sequence
+#: model:ir.model.fields,field_description:stock_reserve_rule.field_stock_reserve_rule_removal__sequence
+msgid "Sequence"
+msgstr "Послідовність"
